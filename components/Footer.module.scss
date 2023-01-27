@@ -1,0 +1,30 @@
+.footer {
+    background: #161616;
+    .footercontent {
+        width: 1290px;
+        padding: 60px 0;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr;
+        h4 {
+            margin-bottom: 30px;
+        }
+        p {
+            margin-bottom: 16px;
+        }
+        .footcopycont {
+            display: grid;
+            height: 80px;
+            grid-template-columns: 80px 1fr;
+            align-items: center;
+            margin-bottom: 16px;
+            margin-left: -25px;
+        }
+        .foorsocial {
+            display: flex;
+            p {
+                margin-left: 16px;
+            }
+        }
+    }
+}

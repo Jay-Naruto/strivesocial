@@ -1,0 +1,124 @@
+.ConnectButton {
+    // width: 129px;
+    // height: 40px;
+    padding: 8px 29px;
+    background: linear-gradient(102.31deg, #2BE74B -12.35%, #36AFDE 87.28%);
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.PrimaryButton {
+    padding: 15px 30px;
+    width: 212px;
+    height: 54px;
+    background: linear-gradient(102.31deg, #2BE74B -12.35%, #36AFDE 87.28%);
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.SecondaryButtonRounded {
+    padding: 15px 35px;
+    border-radius: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.MorePrimaryButton {
+    padding: 8px 50px;
+    background: #363636;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF; 
+    cursor: pointer;   
+}
+
+.ToggleButton {
+    width: 314px;
+    height: 60px;
+    background: #000000;
+    border: 1px solid #2BE74B;
+    // border-width: 1px;
+    // border-style: solid;
+    // border-image: linear-gradient(102.31deg, #2BE74B -12.35%, #36AFDE 87.28%);
+    border-radius: 18px;
+    color: #FFFFFF;
+    display: flex;
+    h4 {
+        margin: 0;
+        padding: 15px 40px;
+        align-self: center;
+        justify-self: center;
+        border-radius: 16px;
+    }
+    h4:hover {
+        background: linear-gradient(102.31deg, #2BE74B -12.35%, #36AFDE 87.28%);
+    }
+}
+
+.WishlistButton {
+    position: absolute;
+    background: #36363680;
+    border-radius: 30px;
+    padding: 9px 9px 6px 9px;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    .wbicon {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+.GuardButton {
+    position: absolute;
+    background: #36363680;
+    border-radius: 30px;
+    padding: 9px 9px 6px 9px;
+    top: 8px;
+    left: 8px;
+    cursor: pointer;
+    .gbicon {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+.MarketplaceToggleButton {
+    height: 44px;
+    background: #000000;
+    border: 1px solid #2BE74B;
+    border-radius: 18px;
+    color: #FFFFFF;
+    display: flex;
+    p {
+        margin: 0;
+        padding: 10px 30px;
+        align-self: center;
+        justify-self: center;
+        border-radius: 16px;
+    }
+    p:hover {
+        background: linear-gradient(102.31deg, #2BE74B -12.35%, #36AFDE 87.28%);
+    }
+}

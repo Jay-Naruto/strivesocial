@@ -1,0 +1,16 @@
+.coursescard {
+    width: 378px;
+    // height: 286px;
+    background: #181818;
+    mix-blend-mode: normal;
+    border-radius: 18px;
+    padding: 16px;
+    h4 {
+        margin-top: 16px;
+    }
+    .courcardfoot {
+        display: flex;
+        justify-content: space-between;
+        margin: 16px 0;
+    }
+}
