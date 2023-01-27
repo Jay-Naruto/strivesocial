@@ -2,11 +2,12 @@ import styles from './Button.module.scss'
 import { useRouter } from 'next/router'
 import Image from 'next/image';
 
-export function ConnectButton({ title, clicker }) {
+export function ConnectButton({ title, link }) {
+  const router = useRouter();
   return (
     <button
       className={styles.ConnectButton}
-      onClick={clicker}
+      onClick={() => router.push(link)}
     >
       {title}
     </button>
