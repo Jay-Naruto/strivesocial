@@ -21,8 +21,8 @@ export default function Courses() {
           <div className={styles.welleft}>
             <h1>Learn Crypto</h1>
             <h1>Earn Crypto</h1>
-            <h4>Attend live session with top expert and win Crypto rewards for your participation.</h4>
-            <PrimaryButton title="Join Now" />
+            <h4>Attend live sessions with top experts and win Crypto rewards for your participation.</h4>
+            {/* <PrimaryButton title="Join Now" /> */}
           </div>
           <div style={{ marginTop: '-30px' }} className={styles.welright}>
             <Image
