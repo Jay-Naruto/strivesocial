@@ -17,10 +17,13 @@ export function Footer() {
                         />
                         <h2>Strive</h2>
                     </div>
-                    <p>STRIVEON TECHNOLOGIES PRIVATE LIMITED © 2022</p>
+                    <p className={styles.copyR}>STRIVEON TECHNOLOGIES PRIVATE LIMITED © 2022</p>
                 </div>
                 <div className={styles.footsocials}>
+                    <div>
                     <h4>Follow Us</h4>
+
+                    </div>
                     <div className={styles.foorsocial}>
                         <Image
                             src="/social/fb.svg"

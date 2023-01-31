@@ -25,13 +25,12 @@ export default function Courses() {
             {/* <PrimaryButton title="Join Now" /> */}
           </div>
           <div style={{ marginTop: '-30px' }} className={styles.welright}>
-            <Image
+            <img
               // src="/welcome.gif"
               src="/welcome.png"
               alt="Create NFT"
-              width={520}
-              height={520}
-              className="welcomeimg"
+           
+              className={styles.welcomeimg}
               priority
             />
           </div>
@@ -40,10 +39,12 @@ export default function Courses() {
       <div className={styles.coursespage}>
         <div className={styles.coursescards}>
           <CoursesCard
+          
             title="Invest in Cryptocurrency like a Pro !"
             img="/courses/21stJan.png"
             link="https://insider.in/invest-in-cryptocurrency-like-a-pro--jan21-2023/event"
           />
+          
           <CoursesCard
             title="Everything you need to know about Cryptocurrency"
             img="/courses/5thfeb.png"

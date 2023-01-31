@@ -3,34 +3,67 @@ import styles from './Nav.module.scss'
 import { mainNavData } from '../data/nav'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
+import { useState } from 'react'
 
 export function MainNav() {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+  const Close = () => setClick(false);
+  
   const router = useRouter()
   const currentRoute = router.pathname
-  return (
-    <div className={styles.mainnav}>
-      <div className={styles.mainnavcontent}>
-        <div className={styles.mncleft}>
-          <Image
-            src="/strivelogo.jpg"
-            alt="Strive"
-            width={80}
-            height={80}
-            className={styles.mainnavimg}
-            priority
-          />
-          <h2>Strive</h2>
+  return (<>
+    <div className={click ? styles.mainContainer : ""}  onClick={()=>Close()} />
+    <nav className={styles.navbar} onClick={e => e.stopPropagation()}>
+      <div className={styles.navContainer}>
+        <div exact to="/" className={styles.navLogo}>
+          <img src='./strivelogo.jpg' alt=''/>
+      
         </div>
-        <div className={styles.mncright}>
-          <ul>
-            {
-              mainNavData.map(n => 
-                <li key={n.id}><Link href={n.link}>{n.title}</Link></li>
-              )
-            }
-          </ul>
+        <div className={click ? styles.active2: styles.navMenu}>
+          <div className={styles.navItem}>
+            <div
+              exact
+              to="/"
+              activeClassName={styles.active}
+              className={!click ? styles.navLinks2 : styles.navLinks}
+              onClick={click ? handleClick : null}
+            >
+              Home
+            </div>
+          </div>
+          <div className={styles.navItem}>
+            <div
+              exact
+              to="/"
+              activeClassName={styles.active}
+              className={!click ? styles.navLinks2 : styles.navLinks}
+              onClick={click ? handleClick : null}
+            >
+              Home
+            </div>
+          </div>
+          <div className={styles.navItem}>
+            <div
+              exact
+              to="/"
+              activeClassName={styles.active}
+              className={!click ? styles.navLinks2 : styles.navLinks}
+              onClick={click ? handleClick : null}
+            >
+              Home
+            </div>
+          </div>
+         
+        </div>
+        <div className={styles.navIcon} onClick={handleClick}>
+          {/* <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
+           */}
+           <img src={!click ? './menu.png':'./close.svg'} alt=''/>
         </div>
       </div>
-    </div>
+    </nav>
+  </>
   )
 }
