@@ -2,13 +2,16 @@
 .landingpage {
   width: 100%;
   margin: 60px auto;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .welcome {
 display: flex;
 justify-content: center;
 align-items: center;
-width: 100%;
+width: 80%;
 }
 .welcomeimg{
   width: 100%;
