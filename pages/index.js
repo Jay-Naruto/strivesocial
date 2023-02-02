@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import { MainNav } from '../components/Nav.js'
 import { CoursesCard } from '../components/Card'
-import { PrimaryButton } from '../components/Button'
+import { ConnectButton, PrimaryButton } from '../components/Button'
 import { Footer } from '../components/Footer'
 
 export default function Courses() {
@@ -16,6 +16,17 @@ export default function Courses() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MainNav />
+      <div className={styles.banner}>
+          <img width="100%" src='./banner.png' alt=''/>
+        
+        <button
+      className={styles.ConnectButton2}
+      onClick={() => router.push("https://main.d3ab2f5m2djk1u.amplifyapp.com/")}
+    >
+      Events
+    </button>
+      </div>
+      
       <main className={styles.landingpage}>
         <div className={styles.welcome}>
           <div className={styles.welleft}>
