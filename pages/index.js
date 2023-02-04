@@ -21,7 +21,7 @@ export default function Courses() {
         
         <button
       className={styles.ConnectButton2}
-      onClick={() => router.push("https://main.d3ab2f5m2djk1u.amplifyapp.com/")}
+      onClick={() => router.push("https://nftpass.strive.social/")}
     >
       Events
     </button>
