@@ -30,7 +30,7 @@ export function MainNav() {
               className={!click ? styles.navLinks2 : styles.navLinks}
               onClick={click ? handleClick : null}
             >
-              Home
+              
             </div>
           </div>
           <div className={styles.navItem}>
@@ -41,7 +41,7 @@ export function MainNav() {
               className={!click ? styles.navLinks2 : styles.navLinks}
               onClick={click ? handleClick : null}
             >
-              Home
+              
             </div>
           </div>
           <div className={styles.navItem}>
@@ -52,7 +52,7 @@ export function MainNav() {
               className={!click ? styles.navLinks2 : styles.navLinks}
               onClick={click ? handleClick : null}
             >
-              Home
+              
             </div>
           </div>
          
