@@ -30,16 +30,17 @@ export default function Courses() {
       <main className={styles.landingpage}>
         <div className={styles.welcome}>
           <div className={styles.welleft}>
-            <h1>Learn Crypto</h1>
-            <h1>Earn Crypto</h1>
+            <h1>Check out <br></br>Strive's Utility Protocol<br></br><a style={{color:'white',cursor:'pointer'}} rel="noopener noreferrer" href='https://www.strv.network/'> on strv.network </a></h1>
+            <h2>Learn Crypto</h2>
+            <h2>Earn Crypto</h2>
             <h4>Attend live sessions with top experts and win Crypto rewards for your participation.</h4>
-            <h4>Our main dapp is on <a style={{color:'white',cursor:'pointer'}} rel="noopener noreferrer" href='https://www.strv.network/'> strv.network </a></h4>
+
 
             {/* <PrimaryButton title="Join Now" /> */}
             <a target='_blank'  rel="noopener noreferrer"  href='https://www.strv.network/'>
             <button
       className={styles.ConnectButton2}
-      style={{marginTop:50}}
+      style={{marginTop:50,marginBottom:50}}
     >
       Launch Dapp
     </button>
