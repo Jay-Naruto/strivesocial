@@ -30,7 +30,7 @@ export default function Courses() {
       <main className={styles.landingpage}>
         <div className={styles.welcome}>
           <div className={styles.welleft}>
-            <h1>Check out <br></br>Strive's Utility Protocol<br></br><a style={{color:'white',cursor:'pointer'}} rel="noopener noreferrer" href='https://www.strv.network/'> on strv.network </a></h1>
+            <h1>Check out <br></br>Strive&apos;s Utility Protocol<br></br><a style={{color:'white',cursor:'pointer'}} rel="noopener noreferrer" href='https://www.strv.network/'> on strv.network </a></h1>
             <h2>Learn Crypto</h2>
             <h2>Earn Crypto</h2>
             <h4>Attend live sessions with top experts and win Crypto rewards for your participation.</h4>
