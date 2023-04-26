@@ -74,7 +74,7 @@ export function Footer() {
                             height={23}
                             priority
                         />
-                        <p><a href="mailto:hey@strive.social">Hey@Strive.Social</a></p>
+                        <p><a  rel="noopener noreferrer"  href="mailto:hey@strive.social">Hey@Strive.Social</a></p>
                     </div>
                     <div className={styles.foorsocial}>
                         <Image
@@ -84,7 +84,7 @@ export function Footer() {
                             height={23}
                             priority
                         />
-                        <p><a href="https://docs.google.com/document/d/1QhZlgxe5yoOF_6gVFcFZUXlwRd8OaX3SXliLnTUGW7A/edit">Privacy Policy</a></p>
+                        <p><a  rel="noopener noreferrer"  href="https://docs.google.com/document/d/1QhZlgxe5yoOF_6gVFcFZUXlwRd8OaX3SXliLnTUGW7A/edit">Privacy Policy</a></p>
                     </div>
                     <div className={styles.foorsocial}>
                         <Image
@@ -94,7 +94,7 @@ export function Footer() {
                             height={23}
                             priority
                         />
-                        <p><a href="https://docs.google.com/document/d/15oAwoQPC2kjhRo5ucHVlDKyd2W9Q6zzokIRIg0e2em8/edit">Terms & Conditions</a></p>
+                        <p><a  rel="noopener noreferrer"  href="https://docs.google.com/document/d/15oAwoQPC2kjhRo5ucHVlDKyd2W9Q6zzokIRIg0e2em8/edit">Terms & Conditions</a></p>
                     </div>
                 </div>
             </div>

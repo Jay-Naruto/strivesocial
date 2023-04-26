@@ -36,7 +36,7 @@ export default function Courses() {
             <h4>Our main dapp is on <a style={{color:'white',cursor:'pointer'}} rel="noopener noreferrer" href='https://www.strv.network/'> strv.network </a></h4>
 
             {/* <PrimaryButton title="Join Now" /> */}
-            <a target='_blank' href='https://www.strv.network/'>
+            <a target='_blank'  rel="noopener noreferrer"  href='https://www.strv.network/'>
             <button
       className={styles.ConnectButton2}
       style={{marginTop:50}}
