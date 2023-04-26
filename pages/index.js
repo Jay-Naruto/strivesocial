@@ -33,7 +33,18 @@ export default function Courses() {
             <h1>Learn Crypto</h1>
             <h1>Earn Crypto</h1>
             <h4>Attend live sessions with top experts and win Crypto rewards for your participation.</h4>
+            <h4>Our main dapp is on  <a style={{color:'white',cursor:'pointer'}} href='https://www.strv.network/'>' strv.network '</a></h4>
+
             {/* <PrimaryButton title="Join Now" /> */}
+            <a target='_blank' href='https://www.strv.network/'>
+            <button
+      className={styles.ConnectButton2}
+      style={{marginTop:50}}
+    >
+      Launch Dapp
+    </button>
+            </a>
+
           </div>
           <div style={{ marginTop: '-30px' }} className={styles.welright}>
             <img
